@@ -32,12 +32,11 @@ Cara Menjalankan Bot :
 
 Bot Ini Menggunakan 10 Akun Bot + 1 Akun admin 
 Cara Install Via wps :
-
-sudo apt-get update
-sudo apt-get install python-software-properties
-sudo pip install rsa
-sudo pip install requests
-sudo pip install thrift==0.9.3
-sudo apt-get install git
-sudo apt-get install nano
-git clone https://github.com/adekrisna/BotCv10akun
+- sudo apt-get update
+- sudo apt-get install python-software-properties
+- sudo pip install rsa
+- sudo pip install requests
+- sudo pip install thrift==0.9.3
+- sudo apt-get install git
+- sudo apt-get install nano
+- git clone https://github.com/adekrisna/BotCv10akun
