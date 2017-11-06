@@ -16,17 +16,17 @@ cl.login(token="Em6rydzMA3r3ccyd6eRe.QlCh5dGVXhTn8XJhYAOFpG.0uPgqsuQazlW88PYj2rS
 cl.loginResult()
 
 ki = LINETCR.LINE() #Zorro
-ki.login(token="EmJPUtcqqTTkFrFfP0P0.4CtAvksI2snhv2NVBSkYCa.fADNElf/oiODuxfjHQ1vbdqaXKbIVAQM0wEu7ZGEaXk=")
+ki.login(token="EmvimJIgZHoUhejz92j0.4CtAvksI2snhv2NVBSkYCa.G58uBzVnmyfSW9H07BXUFz+3afX3XqHAjJ/s7hha0z0=")
 #ki.login(qr=True)
 ki.loginResult()
 
 kk = LINETCR.LINE() #Sanji
-kk.login(token="EmOGSdkCbKDI01RM61k1.RF06i2MlCDf8zeGTj9WU0q.dI72XaOCog1pklwbcURTt2D2iJ1sCtVmSo+sjV30FaU=")
+kk.login(token="EmXS2ZH0dSUnhEbD7X61.RF06i2MlCDf8zeGTj9WU0q.sUUPxYIQA+240P0zzDQd1yaLO4l16iYEPJeKI1lmkvQ=")
 #kk.login(qr=True)
 kk.loginResult()
 
 kc = LINETCR.LINE() #Ussop
-kc.login(token="Em8swhepEwaFKOT4hpAf.W88yhLv5KB7iGCAeG9HatW.PAoIVicBYLki30dDYhWRHRlC6nGCCFChjZiMGUjNfJI=")
+kc.login(token="Em2h9d3PkKt4RrPhdUDf.W88yhLv5KB7iGCAeG9HatW.6gVNK4QEgqlhJ9kYi+1hYUFsm3gR60SDcrs4fLr6yR8=")
 #kc.login(qr=True)
 kc.loginResult()
 
@@ -70,7 +70,95 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 helpMessage =""" ^[One Piece Bot]^
-OWNER •Kris thea•"""
+OWNER •Kris thea•
+http://line.me/ti/p/GkwfNjoPDH
+
+Command bot for owner :
+======================
+> Set/Status
+> Key/Help
+> Admin menu
+> Gn (ganti nama grup)
+> kick mid (kick + mid target)
+> Invite mid (Invite + mid target)
+> Admin add @ (tambah admin + tag kontak)
+> Admin remove @ (hapus admin + tag kontak)
+> Adminlist/adminlist (list admin)
+> Allbio: ... (bikin status di bio bot)
+> Myname:...
+> Cancel (membatalkan undangan)
+> Buka qr 
+> Tutup qr
+> Info Group (info grup tsb)
+> Message change: ... 
+> /invitemeto: ... (/invitemeto: id group)
+> Kuy/One piece/Join OP (Bot masuk group)owner/creator
+> Kuya/Koplak OP (bot masuk group)bot
+> Koplak join (bot masuk room)
+> Bye op/Kabur all/Kaboor all (klr dari room)
+> Kaboor(klr satu2)
+> Bot like (semua bot ngelike status akun utama)
+> Like temen (semua bot ngelike status temen)
+> Kill ..(kick banned)
+> Ready op (ratakan)
+> Nk .. (kick tag member)
+> LG (list group)
+> Bot out/Op bye (klr dari semua group)
+
+
+> Add on/off
+> Comment on/off
+> Jam on
+> Change clock
+> Jam Update
+
+[ command di atas hanya utk owner bot => kris ] {klw ada apa2 pm dia}
+
+
+Command bot for admin :
+=======================
+> Admin menu
+> Spam: ...
+> Bot? (cek kontak bot)
+> Me
+> My mid (cek mid kita sendiri)
+> Mid Bot (cek mid bot)
+> Cctv (ngeset Reader)
+> Ciduk (ngecek yg ngintip) 
+> Tag all/Tagall (tag semua member)
+> Blacklist @ 
+> Banned @
+> Mid @
+> Unban @
+> Up/up/Up Chat/Up chat/up chat/Upchat/upchat (naik chat spam)
+> GBc ... (ngeBC ke semua group yg ada bot trsbt)
+> Absen/Absen bot/Absen dulu/Respon
+> Speed/Sp
+> Ban
+> Unban
+> Creator
+> Woy/woy/Woi/bot/Bot
+> Banlist
+> Cek ban
+> Kill ban
+> Clear
+> #welcome
+
+
+bot chat :
+==========
+> Wkwkwk/Wkwk/Wk
+> Hehehe/Hehe/He
+> Galau
+> You
+> Hadeuh
+> Please
+> Haaa
+> Lol
+> Hmmm/Hmm/Hm
+> Welcome
+
+******************"""
 
 Setgroup =""" 
     [Admin Menu]
@@ -110,8 +198,8 @@ Imid = ku.getProfile().mid #Rebecca
 Smid = satpam.getProfile().mid #Akun Utama
 mid1 = k1.getProfile().mid #Backup
 
-Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Smid,mid1,"u31ef22df7f538df1d74dc7f756ef1a32"]
-admin=["u31ef22df7f538df1d74dc7f756ef1a32","u9cc2323f5b84f9df880c33aa9f9e3ae1","u60335d94c7a3ca3a3c3685f515724145"] 
+Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Smid,mid1,"u31ef22df7f538df1d74dc7f756ef1a32","u60335d94c7a3ca3a3c3685f515724145","ua8b707e4382fc47b4df318c7c9aa1f3e","ue1c4da54a4a2d923475769ef6ec2b270","uadfd3a23698b71d17c64482d27dc2ed1","uc3cf181e557991bec881c68483d8404f","uad6cb020c5ca7afbecb4681675eb38cd","u53c352134325f0c49e86534c57801bd7","ud5262649376cbf7576e2dcac0331d481","uc92d7e39d7259174dba7d8028c7ef4b2","uc1ba312554b4ee025039f54ff44c7c7f","u8197906b2cc18e992fd6bd63d3dac867","udcf44c4272d8209a8a5f2dd1afeea93f"]
+admin=["u31ef22df7f538df1d74dc7f756ef1a32","u9cc2323f5b84f9df880c33aa9f9e3ae1","udfc53d47e1bfd9c9330cb6055494bb37","u60335d94c7a3ca3a3c3685f515724145","ua8b707e4382fc47b4df318c7c9aa1f3e","ue1c4da54a4a2d923475769ef6ec2b270","uadfd3a23698b71d17c64482d27dc2ed1","uc3cf181e557991bec881c68483d8404f","uad6cb020c5ca7afbecb4681675eb38cd","u53c352134325f0c49e86534c57801bd7","ud5262649376cbf7576e2dcac0331d481","uc92d7e39d7259174dba7d8028c7ef4b2","uc1ba312554b4ee025039f54ff44c7c7f","u8197906b2cc18e992fd6bd63d3dac867","udcf44c4272d8209a8a5f2dd1afeea93f"] 
 owner=["u31ef22df7f538df1d74dc7f756ef1a32"]
 wait = {
     'contact':False,
@@ -2804,6 +2892,22 @@ def bot(op):
 				kk.sendText(msg.to,(bctxt))
 				kc.sendText(msg.to,(bctxt))
        #--------------Fungsi Broadcast Finish-----------#
+       #--------------------Start-----------------------#       
+            elif "Apakah " in msg.text:
+                tanya = msg.text.replace("Apakah ","")
+                jawab = ("Ya","Tidak","Bisa Jadi")
+                jawaban = random.choice(jawab)
+                cl.sendText(msg.to,jawaban)		
+                cl.sendText(msg.to,jawaban)		                
+                cl.sendText(msg.to,jawaban)		                
+            elif "Berapa besar cinta " in msg.text:
+                tanya = msg.text.replace("Berapa besar cinta ","")
+                jawab = ("0%","25%","50%","75%","100%")
+                jawaban = random.choice(jawab)
+                cl.sendText(msg.to,jawaban)                
+                cl.sendText(msg.to,jawaban)		                
+                cl.sendText(msg.to,jawaban)		                
+       #-------------------Finish-----------------------#
        
             elif msg.text in ["LG"]: #Melihat List Group
               if msg.from_ in admin:
@@ -2853,10 +2957,10 @@ def bot(op):
  #------------------------End---------------------
 
  #-----------------End-----------
-            elif msg.text in ["Op katakan hi"]:
-                ki.sendText(msg.to,"Hi buddy 􀜁􀅔Har Har􏿿")
-                kk.sendText(msg.to,"Hi buddy 􀜁􀅔Har Har􏿿")
-                kc.sendText(msg.to,"Hi buddy 􀜁􀅔Har Har􏿿")
+            elif msg.text in ["Op katakan hai"]:
+                ki.sendText(msg.to,"Hai My Family 􀜁􀅔Har Har􏿿")
+                kk.sendText(msg.to,"Hai My Family 􀜁􀅔Har Har􏿿")
+                kc.sendText(msg.to,"Hai My Family 􀜁􀅔Har Har􏿿")
 
 #-----------------------------------------------
             elif msg.text in ["Cv say hinata pekok"]:
@@ -2943,7 +3047,7 @@ def bot(op):
                 
       #-------------Fungsi Chat ----------------
             elif msg.text in ["Woy","woy","Woi","woi","bot","Bot"]:
-                 quote = ['Istri yang baik itu Istri yang Mengizinkan Suaminya untuk Poligami 😂😂😂.','Kunci Untuk Bikin Suami Bahagia itu cuma satu..\nIzinkan Suamimu Untuk Selingkuh Coyyy ','Ah Kupret Lu','Muka Lu Kaya jembut','Ada Orang kah disini?','Sange Euy','Ada Perawan Nganggur ga Coy?']
+                 quote = ['Istri yang baik itu Istri yang Mengizinkan Suaminya untuk Poligami 😂😂😂.','Kunci Untuk Bikin Suami Bahagia itu cuma satu..\nIzinkan Suamimu Untuk Selingkuh Coyyy ','Ah Kupret Lu','Muka Lu Kaya jembut','Ada Orang kah disini?','Sange Euy','Ada Perawan Nganggur ga Coy?','Ada Janda Nganggur ga ya ,yg bisa di ajak mojok?']
                  psn = random.choice(quote)
                  cl.sendText(msg.to,psn)
             
@@ -3057,8 +3161,8 @@ def bot(op):
            if op.param2 in Bots:
               return
            ginfo = cl.getGroup(op.param1)
-           random.choice(KAC).sendText(op.param1, "Selamat Datang Di Grup  " + str(ginfo.name))
-           random.choice(KAC).sendText(op.param1, "Founder Grup " + str(ginfo.name) + " :\n""Krisna" + ginfo.creator.displayName)
+           random.choice(KAC).sendText(op.param1, "Selamat Datang Di  " + str(ginfo.name))
+           random.choice(KAC).sendText(op.param1, "Owner Bot Krisna, Owner Room: " + str(ginfo.name) + " :\n" + ginfo.creator.displayName)
            random.choice(KAC).sendText(op.param1,"Budayakan Baca Note !!! yah Ka 😊\nJangan Baper & Jangan Nakal ya KK\nSemoga Betah Kk 😘")
            print "MEMBER HAS JOIN THE GROUP"
         if op.type == 15:
