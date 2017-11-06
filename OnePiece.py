@@ -2907,6 +2907,13 @@ def bot(op):
                 cl.sendText(msg.to,jawaban)                
                 cl.sendText(msg.to,jawaban)		                
                 cl.sendText(msg.to,jawaban)		                
+            elif "Bot bagaimana " in msg.text:
+                tanya = msg.text.replace("Bot bagaimana ","")
+                jawab = ("Tidak tahu","Terus gue harus jawab gitu","Terserah lu itu mah","Gesekin ke tembok aja dah","Nah tuh koplak nanya gituan")
+                jawaban = random.choice(jawab)
+                cl.sendText(msg.to,jawaban)
+                cl.sendText(msg.to,jawaban)
+                cl.sendText(msg.to,jawaban)
        #-------------------Finish-----------------------#
        
             elif msg.text in ["LG"]: #Melihat List Group
