@@ -5,8 +5,8 @@ from LINETCR.lib.curve.ttypes import *
 from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
-satpam = LINETCR.LINE() # Koplaxs # Login Pake Akun Utama Kalian(Gunanya Supaya Akun Utama Ke Kick bisa Terima Undangan dari Bot Otomatis)
-satpam.login(token="EmlKiCoKVuzewPyZBOz5.ydnDLmEJYJO8nOx1fxjbrq.iDnw14iOMPGXCYtSy9hLywEu33+rz9vSitAmzIOmXA0=")
+satpam = LINETCR.LINE() # Koplaxs # Login Pake Akun Kicker Kalian(Gunanya Supaya Akun Utama Ke Kick bisa Terima Undangan dari Bot Otomatis)
+satpam.login(token="EmoMEITMVgcqBik2oCG7.GzEqAYZbJPKV1R1J09RizW.Q9UXcozeKMwKkV0UzzW1q2ze71yqQP/3gv+t1m4+6EA=")
 #satpam.login(qr=True)
 satpam.loginResult()
 
@@ -16,17 +16,17 @@ cl.login(token="Em6rydzMA3r3ccyd6eRe.QlCh5dGVXhTn8XJhYAOFpG.0uPgqsuQazlW88PYj2rS
 cl.loginResult()
 
 ki = LINETCR.LINE() #Zorro
-ki.login(token="EmvimJIgZHoUhejz92j0.4CtAvksI2snhv2NVBSkYCa.G58uBzVnmyfSW9H07BXUFz+3afX3XqHAjJ/s7hha0z0=")
+ki.login(token="EmBohhbLVPx1t6XzgRo0.4CtAvksI2snhv2NVBSkYCa.u96goHQ8WCKlvqd84uuDgZh2++Qwsm8nWhlItIPZSP0=")
 #ki.login(qr=True)
 ki.loginResult()
 
 kk = LINETCR.LINE() #Sanji
-kk.login(token="EmXS2ZH0dSUnhEbD7X61.RF06i2MlCDf8zeGTj9WU0q.sUUPxYIQA+240P0zzDQd1yaLO4l16iYEPJeKI1lmkvQ=")
+kk.login(token="Em4RltdpcZGJi2inEoI1.RF06i2MlCDf8zeGTj9WU0q./SPMK+ir9lBfqpRi1o9aRMCf8nPVsqM/tkfF7zjGnns=")
 #kk.login(qr=True)
 kk.loginResult()
 
 kc = LINETCR.LINE() #Ussop
-kc.login(token="Em2h9d3PkKt4RrPhdUDf.W88yhLv5KB7iGCAeG9HatW.6gVNK4QEgqlhJ9kYi+1hYUFsm3gR60SDcrs4fLr6yR8=")
+kc.login(token="Em3VxKRZn0IUsaawpeqf.W88yhLv5KB7iGCAeG9HatW.BwwdReOGAyYckQwVLuu7/vwyZ724J3DRy4a41hirSYI=")
 #kc.login(qr=True)
 kc.loginResult()
 
@@ -46,22 +46,22 @@ kb.login(token="EmZGhV3a0QdeT6TauN61.1syMstDSV3v24TYSaZhuGq.9qixv+M5OXRZ1naKjtEt
 kb.loginResult()
 
 ko = LINETCR.LINE() #Nami
-ko.login(token="EmH24zwjdihqWtAaCG32.Ys1/oDCLKxtBP9GcJh70SG.HgnM+GQ61h9/DZRGAyFySMAMcBQGu+31kn2x/v0qF+A=")
+ko.login(token="EmoFqf6Gp7m8idnN2BKf.3prmqNlyijQkxY3rR/6PpW.jhXfAyItGvuuGsenYGjGqsuQcPzTzoPl4N5iv3uF6pM=")
 #ko.login(qr=True)
 ko.loginResult()
 
 ke = LINETCR.LINE() #Robin
-ke.login(token="EmBl0tW0x2R3hnIE3ogf.WBOXjvs07GjqoFvp9eX8FW.WffFfyt29WZrIFxRI1Zg4L8m8OQsXZ1ZNy9ZytxxuL0=")
+ke.login(token="Emx3nSInz6Ckk9pphf34.rCBoqd8kZcG5lfgqkkRHva.pC+d97OCf5zz2hyVt2MuPeW/K1GlWI051I/ezR7dM4Q=")
 #ke.login(qr=True)
 ke.loginResult()
 
 ku = LINETCR.LINE() #Rebecca
-ku.login(token="EmvjuQaojFnvTH2TpPV7.GzEqAYZbJPKV1R1J09RizW.P0yFxV1IMbnsL+13yp6IqICo27arwQ+tlgGOiJD3Txg=")
+ku.login(token="EmbSHyqQB265WMVTl1H2.Ys1/oDCLKxtBP9GcJh70SG.GZKTcmfKbXVaepgt7FMC9jnnZPKBJ9jMmpyGC5CnihE=")
 #ku.login(qr=True)
 ku.loginResult()
 
 k1 = LINETCR.LINE() #Backup (Gunanya Kalo Akun Utama Ke Kick, Dy masuk ke Group dan Ngekick yang Kick Akun Utama Dan Akun Utama Di undang sama dia,lalu dy leave lagi :D)
-k1.login(token="EmheRJoAThejPMQXQ3tf.3prmqNlyijQkxY3rR/6PpW.Cc4dL5wbSQxvIWpbLFDAZaXdx31iXGEv3+/JUQHDthQ=")
+k1.login(token="EmvnrIH1TLsQcRfqd7uf.WBOXjvs07GjqoFvp9eX8FW.8D83P3F8/ebq82xNQwZMe3HwQY2Id53/ZdTQAYeWXiM=")
 #k1.login(qr=True)
 k1.loginResult()
 
@@ -76,7 +76,7 @@ http://line.me/ti/p/GkwfNjoPDH
 Command bot for owner :
 ======================
 > Set/Status
-> Key/Help
+> Help
 > Admin menu
 > Gn (ganti nama grup)
 > kick mid (kick + mid target)
@@ -95,8 +95,8 @@ Command bot for owner :
 > Kuy/One piece/Join OP (Bot masuk group)owner/creator
 > Kuya/Koplak OP (bot masuk group)bot
 > Koplak join (bot masuk room)
-> Bye op/Kabur all/Kaboor all (klr dari room)
-> Kaboor(klr satu2)
+> Bye op/Kabur all/Kaboor all/One piece left (klr dari room)
+> Kabur OP(klr Room)
 > Bot like (semua bot ngelike status akun utama)
 > Like temen (semua bot ngelike status temen)
 > Kill ..(kick banned)
@@ -118,6 +118,8 @@ Command bot for owner :
 Command bot for admin :
 =======================
 > Admin menu
+> Help
+> Keyword
 > Spam: ...
 > Bot? (cek kontak bot)
 > Me
@@ -137,14 +139,14 @@ Command bot for admin :
 > Ban
 > Unban
 > Creator
-> Woy/woy/Woi/bot/Bot
 > Banlist
 > Cek ban
 > Kill ban
 > Clear
-> #welcome
 
+******************"""
 
+keyword =""" ^[One Piece Bot]^
 bot chat :
 ==========
 > Wkwkwk/Wkwk/Wk
@@ -157,7 +159,17 @@ bot chat :
 > Lol
 > Hmmm/Hmm/Hm
 > Welcome
+> #welcome
+> Woy/woy/Woi/bot/Bot
 
+keywordiseng :
+===============
+> Apakah [sebutkan kata yg anda mau]
+> Berapa besar cinta [sebutkan kata yg anda mau]
+> Adakah [sebutkan kata yg anda mau]
+> Cakepkah [sebutkan kata yg anda mau]
+> Siapakah cewek [sebutkan kata yg anda mau]
+> Siapakah cowok [sebutkan kata yg anda mau]
 ******************"""
 
 Setgroup =""" 
@@ -198,8 +210,8 @@ Imid = ku.getProfile().mid #Rebecca
 Smid = satpam.getProfile().mid #Akun Utama
 mid1 = k1.getProfile().mid #Backup
 
-Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Smid,mid1,"u31ef22df7f538df1d74dc7f756ef1a32","u60335d94c7a3ca3a3c3685f515724145","ua8b707e4382fc47b4df318c7c9aa1f3e","ue1c4da54a4a2d923475769ef6ec2b270","uadfd3a23698b71d17c64482d27dc2ed1","uc3cf181e557991bec881c68483d8404f","uad6cb020c5ca7afbecb4681675eb38cd","u53c352134325f0c49e86534c57801bd7","ud5262649376cbf7576e2dcac0331d481","uc92d7e39d7259174dba7d8028c7ef4b2","uc1ba312554b4ee025039f54ff44c7c7f","u8197906b2cc18e992fd6bd63d3dac867","udcf44c4272d8209a8a5f2dd1afeea93f"]
-admin=["u31ef22df7f538df1d74dc7f756ef1a32","u9cc2323f5b84f9df880c33aa9f9e3ae1","udfc53d47e1bfd9c9330cb6055494bb37","u60335d94c7a3ca3a3c3685f515724145","ua8b707e4382fc47b4df318c7c9aa1f3e","ue1c4da54a4a2d923475769ef6ec2b270","uadfd3a23698b71d17c64482d27dc2ed1","uc3cf181e557991bec881c68483d8404f","uad6cb020c5ca7afbecb4681675eb38cd","u53c352134325f0c49e86534c57801bd7","ud5262649376cbf7576e2dcac0331d481","uc92d7e39d7259174dba7d8028c7ef4b2","uc1ba312554b4ee025039f54ff44c7c7f","u8197906b2cc18e992fd6bd63d3dac867","udcf44c4272d8209a8a5f2dd1afeea93f"] 
+Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Smid,mid1,"u31ef22df7f538df1d74dc7f756ef1a32"]
+admin=["u31ef22df7f538df1d74dc7f756ef1a32","u9cc2323f5b84f9df880c33aa9f9e3ae1"] 
 owner=["u31ef22df7f538df1d74dc7f756ef1a32"]
 wait = {
     'contact':False,
@@ -500,7 +512,66 @@ def bot(op):
               random.choice(KAC).updateGroup(G)
               satpam.updateGroup(G)
               wait["blacklist"][op.param2] = True
-                                
+
+            if op.param3 in Smid:
+              if op.param2 in mid:
+                G = cl.getGroup(op.param1)
+                G.preventJoinByTicket = False
+                cl.updateGroup(G)
+                Ticket = cl.reissueGroupTicket(op.param1)
+                cl.acceptGroupInvitationByTicket(op.param1,Ticket)
+                time.sleep(0.01)
+                ki.acceptGroupInvitationByTicket(op.param1,Ticket)
+                time.sleep(0.01)
+                kk.acceptGroupInvitationByTicket(op.param1,Ticket)
+                time.sleep(0.01)
+                kc.acceptGroupInvitationByTicket(op.param1,Ticket)
+                time.sleep(0.01)
+                ks.acceptGroupInvitationByTicket(op.param1,Ticket)
+                time.sleep(0.01)
+                ka.acceptGroupInvitationByTicket(op.param1,Ticket)
+                time.sleep(0.01)
+                kb.acceptGroupInvitationByTicket(op.param1,Ticket)
+                time.sleep(0.01)
+                ku.acceptGroupInvitationByTicket(op.param1,Ticket)
+                time.sleep(0.01)
+                ko.acceptGroupInvitationByTicket(op.param1,Ticket)
+                time.sleep(0.01)
+                ke.acceptGroupInvitationByTicket(op.param1,Ticket)
+                time.sleep(0.01)
+                G.preventJoinByTicket = True
+                cl.updateGroup(G)
+              else:
+                G = cl.getGroup(op.param1)
+                cl.kickoutFromGroup(op.param1,[op.param2])
+                G.preventJoinByTicket = False
+                cl.updateGroup(G)
+                Ticket = cl.reissueGroupTicket(op.param1)
+                cl.acceptGroupInvitationByTicket(op.param1,Ticket)
+                time.sleep(0.01)
+                ki.acceptGroupInvitationByTicket(op.param1,Ticket)
+                time.sleep(0.01)
+                kk.acceptGroupInvitationByTicket(op.param1,Ticket)
+                time.sleep(0.01)
+                kc.acceptGroupInvitationByTicket(op.param1,Ticket)
+                time.sleep(0.01)
+                ks.acceptGroupInvitationByTicket(op.param1,Ticket)
+                time.sleep(0.01)
+                ka.acceptGroupInvitationByTicket(op.param1,Ticket)
+                time.sleep(0.01)
+                kb.acceptGroupInvitationByTicket(op.param1,Ticket)
+                time.sleep(0.01)
+                ku.acceptGroupInvitationByTicket(op.param1,Ticket)
+                time.sleep(0.01)
+                ko.acceptGroupInvitationByTicket(op.param1,Ticket)
+                time.sleep(0.01)
+                ke.acceptGroupInvitationByTicket(op.param1,Ticket)
+                time.sleep(0.01)
+                G.preventJoinByTicket = True
+                satpam.updateGroup(G)
+                cl.updateGroup(G)
+                wait["blacklist"][op.param2] = True
+                                                
             if op.param3 in mid:
               if op.param2 in Amid:
                 G = ki.getGroup(op.param1)
@@ -1159,11 +1230,16 @@ def bot(op):
                     cl.sendText(msg.to,msg.text)
             elif msg.text is None:
                 return
-            elif msg.text in ["Key","help","Help"]:
+            elif msg.text in ["help","Help"]:
                 if wait["lang"] == "JP":
                     cl.sendText(msg.to,helpMessage)
                 else:
                     cl.sendText(msg.to,helpt)
+            elif msg.text in ["Keyword","keyword"]:
+                if wait["lang"] == "JP":
+                    cl.sendText(msg.to,keyword)
+                else:
+                    cl.sendText(msg.to,helpt)                                        
             elif msg.text in ["Admin menu"]:
               if msg.from_ in admin:
                 if wait["lang"] == "JP":
@@ -1403,14 +1479,94 @@ def bot(op):
                     cl.sendText(msg.to,"Bio berubah menjadi " + string + "")
     #--------------=Finish=----------------
     #--------------= SC Ganti nama Owner=--------------
-            elif "Myname:" in msg.text:
+            elif "Myname1:" in msg.text:
               if msg.from_ in owner:
-                string = msg.text.replace("Myname:","")
+                string = msg.text.replace("Myname1:","")
                 if len(string.decode('utf-8')) <= 20:
                     profile = cl.getProfile()
                     profile.displayName = string
                     cl.updateProfile(profile)
                     cl.sendText(msg.to,"Update Name Menjadi : " + string + "")
+            elif "Myname2:" in msg.text:
+              if msg.from_ in owner:
+                string = msg.text.replace("Myname2:","")
+                if len(string.decode('utf-8')) <= 20:
+                    profile = ki.getProfile()
+                    profile.displayName = string
+                    ki.updateProfile(profile)
+                    ki.sendText(msg.to,"Update Name Menjadi : " + string + "")                 
+            elif "Myname3:" in msg.text:
+              if msg.from_ in owner:
+                string = msg.text.replace("Myname3:","")
+                if len(string.decode('utf-8')) <= 20:
+                    profile = kk.getProfile()
+                    profile.displayName = string
+                    kk.updateProfile(profile)
+                    kk.sendText(msg.to,"Update Name Menjadi : " + string + "")                                 
+            elif "Myname4:" in msg.text:
+              if msg.from_ in owner:
+                string = msg.text.replace("Myname4:","")
+                if len(string.decode('utf-8')) <= 20:
+                    profile = kc.getProfile()
+                    profile.displayName = string
+                    kc.updateProfile(profile)
+                    kc.sendText(msg.to,"Update Name Menjadi : " + string + "")                                 
+            elif "Myname5:" in msg.text:
+              if msg.from_ in owner:
+                string = msg.text.replace("Myname5:","")
+                if len(string.decode('utf-8')) <= 20:
+                    profile = ks.getProfile()
+                    profile.displayName = string
+                    ks.updateProfile(profile)
+                    ks.sendText(msg.to,"Update Name Menjadi : " + string + "")                                 
+             elif "Myname6:" in msg.text:
+              if msg.from_ in owner:
+                string = msg.text.replace("Myname6:","")
+                if len(string.decode('utf-8')) <= 20:
+                    profile = ka.getProfile()
+                    profile.displayName = string
+                    ka.updateProfile(profile)
+                    ka.sendText(msg.to,"Update Name Menjadi : " + string + "")                                
+            elif "Myname7:" in msg.text:
+              if msg.from_ in owner:
+                string = msg.text.replace("Myname7:","")
+                if len(string.decode('utf-8')) <= 20:
+                    profile = kb.getProfile()
+                    profile.displayName = string
+                    kb.updateProfile(profile)
+                    kb.sendText(msg.to,"Update Name Menjadi : " + string + "")                                 
+            elif "Myname8:" in msg.text:
+              if msg.from_ in owner:
+                string = msg.text.replace("Myname8:","")
+                if len(string.decode('utf-8')) <= 20:
+                    profile = ko.getProfile()
+                    profile.displayName = string
+                    ko.updateProfile(profile)
+                    ko.sendText(msg.to,"Update Name Menjadi : " + string + "")  
+            elif "Myname9:" in msg.text:
+              if msg.from_ in owner:
+                string = msg.text.replace("Myname9:","")
+                if len(string.decode('utf-8')) <= 20:
+                    profile = ke.getProfile()
+                    profile.displayName = string
+                    ke.updateProfile(profile)
+                    ke.sendText(msg.to,"Update Name Menjadi : " + string + "")                                 
+            elif "Myname10:" in msg.text:
+              if msg.from_ in owner:
+                string = msg.text.replace("Myname10:","")
+                if len(string.decode('utf-8')) <= 20:
+                    profile = ku.getProfile()
+                    profile.displayName = string
+                    ku.updateProfile(profile)
+                    ku.sendText(msg.to,"Update Name Menjadi : " + string + "")                                 
+            elif "Myname11:" in msg.text:
+              if msg.from_ in owner:
+                string = msg.text.replace("Myname11:","")
+                if len(string.decode('utf-8')) <= 20:
+                    profile = k1.getProfile()
+                    profile.displayName = string
+                    k1.updateProfile(profile)
+                    k1.sendText(msg.to,"Update Name Menjadi : " + string + "")                  
     #-------------- copy profile----------
             elif "Spam: " in msg.text:
               if msg.from_ in admin:
@@ -1468,6 +1624,10 @@ def bot(op):
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': Hmid}
                 ke.sendMessage(msg)
+                
+                msg.contentType = 13
+                msg.contentMetadata = {'mid': Imid}
+                ku.sendMessage(msg)                
             elif msg.text in ["Me"]:
               if msg.from_ in admin:
                 msg.contentType = 13
@@ -2379,12 +2539,12 @@ def bot(op):
 
                         cl.sendText(msg.to, "||Di Read Oleh||%s\n||By : One Piece BOT||\n\n>Pelaku CCTV<\n%s-=CCTV=-\n•Bintitan\n•Panuan\n•Kurapan\n•Kudisan\n\nAmiin Ya Allah\n[%s]" % (wait2['readMember'][msg.to],chiya,setTime[msg.to]))
                     else:
-                        cl.sendText(msg.to, "Ketik Cctv dulu Koplak\nBaru Ketil Ciduk\nDASAR PIKUN ♪")
+                        cl.sendText(msg.to, "Ketik Cctv dulu Koplak\nBaru Ketik Ciduk\nDASAR PIKUN ♪")
 #-----------------------------------------------
 
 #-----------------------------------------------
          #----------------Fungsi Join Group Start-----------------------#
-            elif msg.text in ["Kuy","One piece","Join OP"]:
+            elif msg.text in ["One piece"]:
               if msg.from_ in owner:
                         G = cl.getGroup(msg.to)
                         ginfo = cl.getGroup(msg.to)
@@ -2410,6 +2570,8 @@ def bot(op):
                         time.sleep(0.01)
                         ku.acceptGroupInvitationByTicket(msg.to,Ticket)
                         time.sleep(0.01)
+                        k1.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        time.sleep(0.01)                        
                         G = cl.getGroup(msg.to)
                         ginfo = cl.getGroup(msg.to)
                         G.preventJoinByTicket = True
@@ -2418,7 +2580,7 @@ def bot(op):
                         G.preventJoinByTicket(G)
                         random.choice(KAC).updateGroup(G)
   
-            elif msg.text in ["Kuya","Koplak OP"]:
+            elif msg.text in ["Masuk OP"]:
               if msg.from_ in owner:
                         G = satpam.getGroup(msg.to)
                         ginfo = satpam.getGroup(msg.to)
@@ -2446,6 +2608,8 @@ def bot(op):
                         time.sleep(0.01)
                         ku.acceptGroupInvitationByTicket(msg.to,Ticket)
                         time.sleep(0.01)
+                        k1.acceptGroupInvitationByTicket(msg.to,Ticket)
+                        time.sleep(0.01)                        
                         G = satpam.getGroup(msg.to)
                         ginfo = satpam.getGroup(msg.to)
                         G.preventJoinByTicket = True
@@ -2508,11 +2672,12 @@ def bot(op):
     #----------------------Fungsi Join Group Finish---------------#
 
     #-------------Fungsi Leave Group Start---------------#
-            elif msg.text in ["Bye op","Kabur all","Kaboor all"]:
+            elif msg.text in ["Kabur all","One piece left","One Piece left"]:
               if msg.from_ in admin:
                 if msg.toType == 2:
                     ginfo = cl.getGroup(msg.to)
                     try:
+                        k1.leaveGroup(msg.to)                                    
                         ki.leaveGroup(msg.to)
                         kk.leaveGroup(msg.to)
                         kc.leaveGroup(msg.to)
@@ -2526,11 +2691,12 @@ def bot(op):
                     except:
                         pass
             
-            elif msg.text in ["Kaboor"]:
+            elif msg.text in ["Kabur OP"]:
               if msg.from_ in admin:
                 if msg.toType == 2:
                     ginfo = cl.getGroup(msg.to)
                     try:
+                        k1.leaveGroup(msg.to)                        
                         ki.leaveGroup(msg.to)
                         kk.leaveGroup(msg.to)
                         kc.leaveGroup(msg.to)
@@ -2895,7 +3061,7 @@ def bot(op):
        #--------------------Start-----------------------#       
             elif "Apakah " in msg.text:
                 tanya = msg.text.replace("Apakah ","")
-                jawab = ("Ya","Tidak","Bisa Jadi")
+                jawab = ("Ya","Tidak","Bisa Jadi","Jangan berharap")
                 jawaban = random.choice(jawab)
                 cl.sendText(msg.to,jawaban)		
                 cl.sendText(msg.to,jawaban)		                
@@ -2907,13 +3073,38 @@ def bot(op):
                 cl.sendText(msg.to,jawaban)                
                 cl.sendText(msg.to,jawaban)		                
                 cl.sendText(msg.to,jawaban)		                
-            elif "Bot bagaimana " in msg.text:
-                tanya = msg.text.replace("Bot bagaimana ","")
-                jawab = ("Tidak tahu","Terus gue harus jawab gitu","Terserah lu itu mah","Gesekin ke tembok aja dah","Nah tuh koplak nanya gituan")
+            elif "Siapakah cewek " in msg.text:
+                tanya = msg.text.replace("Siapakah cewek ","")
+                jawab = ("Maryati􀜁�","Ida􀜁�","Uke􀜁�","Alyn􀜁�","Ikka􀜁�","Yunikey􀜁�","Qwenie􀜁�","Gendis􀜁�","Aryani􀜁�","Nindy􀜁�","Wina􀜁�","Dewi􀜁�","Ifah􀜁�")
                 jawaban = random.choice(jawab)
                 cl.sendText(msg.to,jawaban)
                 cl.sendText(msg.to,jawaban)
                 cl.sendText(msg.to,jawaban)
+                cl.sendText(msg.to,jawaban)
+                cl.sendText(msg.to,jawaban)                
+            elif "Siapakah cowok " in msg.text:
+                tanya = msg.text.replace("Siapakah cowok ","")
+                jawab = ("Arjun􀜁�","Ahmad khan􀜁�","Hajir􀜁�","Dd􀜁�","Indra􀜁�","Jeong􀜁�","Yogi􀜁�","Ary􀜁�","Ucil􀜁�")
+                jawaban = random.choice(jawab)
+                cl.sendText(msg.to,jawaban)
+                cl.sendText(msg.to,jawaban)
+                cl.sendText(msg.to,jawaban)
+                cl.sendText(msg.to,jawaban)
+                cl.sendText(msg.to,jawaban)  
+            elif "Adakah " in msg.text:
+                tanya = msg.text.replace("Adakah ","")
+                jawab = ("Tidak tahu.","Ada.","Tidak ada.","Mungkin ada")
+                jawaban = random.choice(jawab)
+                cl.sendText(msg.to,jawaban)
+                cl.sendText(msg.to,jawaban)	                
+                cl.sendText(msg.to,jawaban)	                             
+            elif "Cakepkah " in msg.text:
+                tanya = msg.text.replace("Cakepkah ","")
+                jawab = ("Jelek.","Cakep.","Lumayan.","Kaya jembut.")
+                jawaban = random.choice(jawab)
+                cl.sendText(msg.to,jawaban)
+                cl.sendText(msg.to,jawaban)	         
+                cl.sendText(msg.to,jawaban)	                       
        #-------------------Finish-----------------------#
        
             elif msg.text in ["LG"]: #Melihat List Group
