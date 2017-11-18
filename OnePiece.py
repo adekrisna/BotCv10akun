@@ -5,33 +5,33 @@ from LINETCR.lib.curve.ttypes import *
 from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
-satpam = LINETCR.LINE() # Koplaxs # Login Pake Akun Kicker Kalian(Gunanya Supaya Akun Utama Ke Kick bisa Terima Undangan dari Bot Otomatis)
-satpam.login(token="EmoMEITMVgcqBik2oCG7.GzEqAYZbJPKV1R1J09RizW.Q9UXcozeKMwKkV0UzzW1q2ze71yqQP/3gv+t1m4+6EA=")
+satpam = LINETCR.LINE() # Login Pake Akun utama Kalian(Gunanya Supaya Akun Utama Ke Kick bisa Terima Undangan dari Bot Otomatis)
+satpam.login(token="")
 #satpam.login(qr=True)
 satpam.loginResult()
 
 cl = LINETCR.LINE() #Luffy
-cl.login(token="Em6rydzMA3r3ccyd6eRe.QlCh5dGVXhTn8XJhYAOFpG.0uPgqsuQazlW88PYj2rSO4jO/gmsQI5HBuvtm4Jljxo=")
+cl.login(token="")
 #cl.login(qr=True)
 cl.loginResult()
 
 ki = LINETCR.LINE() #Zorro
-ki.login(token="EmBohhbLVPx1t6XzgRo0.4CtAvksI2snhv2NVBSkYCa.u96goHQ8WCKlvqd84uuDgZh2++Qwsm8nWhlItIPZSP0=")
+ki.login(token="")
 #ki.login(qr=True)
 ki.loginResult()
 
 kk = LINETCR.LINE() #Sanji
-kk.login(token="Em4RltdpcZGJi2inEoI1.RF06i2MlCDf8zeGTj9WU0q./SPMK+ir9lBfqpRi1o9aRMCf8nPVsqM/tkfF7zjGnns=")
+kk.login(token="")
 #kk.login(qr=True)
 kk.loginResult()
 
 kc = LINETCR.LINE() #Ussop
-kc.login(token="Em3VxKRZn0IUsaawpeqf.W88yhLv5KB7iGCAeG9HatW.BwwdReOGAyYckQwVLuu7/vwyZ724J3DRy4a41hirSYI=")
+kc.login(token="")
 #kc.login(qr=True)
 kc.loginResult()
 
 ks = LINETCR.LINE() #Chooper
-ks.login(token="EmOAshTJ8TsQcnQzDfld.RwYWimxkEVVSTgGwDES4Zq.dOHGDfE640PfEMaUy705F8bdo/GZNx8cBycoguGgPic=")
+ks.login(token="")
 #ks.login(qr=True)
 ks.loginResult()
 
@@ -41,27 +41,27 @@ ka.login(token="Emigf6fEZOGDSoLNalT7.u8nse0mL8msEHLnmv4aB1W.B0iplq6Kzz5/GONbLHVB
 ka.loginResult()
 
 kb = LINETCR.LINE() #Brook
-kb.login(token="EmZGhV3a0QdeT6TauN61.1syMstDSV3v24TYSaZhuGq.9qixv+M5OXRZ1naKjtEtaBpa6nSUi9LbRo7s8rkDZmM=")
+kb.login(token="")
 #kb.login(qr=True)
 kb.loginResult()
 
 ko = LINETCR.LINE() #Nami
-ko.login(token="EmoFqf6Gp7m8idnN2BKf.3prmqNlyijQkxY3rR/6PpW.jhXfAyItGvuuGsenYGjGqsuQcPzTzoPl4N5iv3uF6pM=")
+ko.login(token="")
 #ko.login(qr=True)
 ko.loginResult()
 
 ke = LINETCR.LINE() #Robin
-ke.login(token="Emx3nSInz6Ckk9pphf34.rCBoqd8kZcG5lfgqkkRHva.pC+d97OCf5zz2hyVt2MuPeW/K1GlWI051I/ezR7dM4Q=")
+ke.login(token="")
 #ke.login(qr=True)
 ke.loginResult()
 
 ku = LINETCR.LINE() #Rebecca
-ku.login(token="EmbSHyqQB265WMVTl1H2.Ys1/oDCLKxtBP9GcJh70SG.GZKTcmfKbXVaepgt7FMC9jnnZPKBJ9jMmpyGC5CnihE=")
+ku.login(token="")
 #ku.login(qr=True)
 ku.loginResult()
 
 k1 = LINETCR.LINE() #Backup (Gunanya Kalo Akun Utama Ke Kick, Dy masuk ke Group dan Ngekick yang Kick Akun Utama Dan Akun Utama Di undang sama dia,lalu dy leave lagi :D)
-k1.login(token="EmvnrIH1TLsQcRfqd7uf.WBOXjvs07GjqoFvp9eX8FW.8D83P3F8/ebq82xNQwZMe3HwQY2Id53/ZdTQAYeWXiM=")
+k1.login(token="")
 #k1.login(qr=True)
 k1.loginResult()
 
