@@ -5,13 +5,13 @@ from LINETCR.lib.curve.ttypes import *
 from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
-#satpam = LINETCR.LINE() # Koplaxs # Login Pake Akun Utama Kalian(Gunanya Supaya Akun Utama Ke Kick bisa Terima Undangan dari Bot Otomatis)
+#satpam = LINETCR.LINE() # Login Pake Akun Utama Kalian(Gunanya Supaya Akun Utama Ke Kick bisa Terima Undangan dari Bot Otomatis)
 #satpam.login(token="")
 #satpam.login(qr=True)
 #satpam.loginResult()
 
 cl = LINETCR.LINE() #Luffy
-cl.login(token="EmmFXdja8JHJdpm7Jmp8.7ofmwUrMKFspa8t9mXW+2a.jMkxLZ3G+V0PzAm0Eq0Z4oK2+N2VWUP3t8t2bqPs1lI=")
+cl.login(token="")
 #cl.login(qr=True)
 cl.loginResult()
 
